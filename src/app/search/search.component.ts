@@ -10,7 +10,7 @@ export class SearchComponent implements OnInit {
   
   user!: any[];
   repos!: any[];
-  username!: string;
+  
   constructor(dataService:DataService) { }
   
   searchUser() {
